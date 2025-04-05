@@ -1,0 +1,113 @@
+:root {
+  --clr-white: hsl(0, 0%, 100%);
+  --clr-green: hsl(75, 94%, 57%);
+  --clr-grey-700: hsl(0, 0%, 20%);
+  --clr-grey-800: hsl(0, 0%, 12%);
+  --clr-grey-900: hsl(0, 0%, 8%);
+
+  --ff-main: "Inter", sans-serif;
+
+  --fw-regular: 400;
+  --fw-semi: 600;
+  --fw-bold: 700;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+button {
+  border: none;
+  background: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+/* General Styling */
+body {
+  font-family: var(--ff-main);
+  font-weight: var(--fw-regular);
+  background-color: var(--clr-grey-900);
+  color: var(--clr-white);
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
+}
+
+/* Profile card Description */
+.profile {
+  width: 370px;
+  padding: 2.3rem;
+  background-color: var(--clr-grey-800);
+  text-align: center;
+  border-radius: 0.5rem;
+}
+
+img {
+  border-radius: 100%;
+  width: 85px;
+  margin-inline: auto;
+}
+
+.profile__title {
+  font-size: 1.5rem;
+  margin: 1.5rem 0 0.25rem 0;
+}
+
+.profile__subtitle {
+  font-size: 0.875rem;
+  color: var(--clr-green);
+  font-weight: var(--fw-semi);
+}
+
+.profile__description {
+  font-size: 0.875rem;
+  margin: 1.5rem 0;
+}
+
+.socials {
+  display: grid;
+  gap: 1rem;
+}
+
+.social__link {
+  background-color: var(--clr-grey-700);
+  border-radius: 0.5rem;
+  padding: 0.75rem 0;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.social__link:hover {
+  background-color: var(--clr-green);
+  color: var(--clr-grey-800);
+  cursor: pointer;
+}
+
+.social__link-title {
+  font-size: 0.875rem;
+  font-weight: var(--fw-semi);
+}
