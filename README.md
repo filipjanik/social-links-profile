@@ -20,8 +20,8 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 
 ### Links
 
-- Solution URL: [Frontend Mentor IO Solution](https://www.frontendmentor.io/solutions/social-links-profile-uhzKjBwS45)
-- Live Site URL: [Hosted on GitHub Pages](https://filipjanik00.github.io/social-links-profile-main/)
+- Solution URL: [Frontend Mentor IO Solution](https://www.frontendmentor.io/solutions/social-links-profile-JlyysFsL8a)
+- Live Site URL: [Hosted on GitHub Pages](https://filipjanik.github.io/social-links-profile/)
 
 ## My process
 
